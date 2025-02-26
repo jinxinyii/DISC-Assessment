@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>DISC Assessment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-white">
+    <!-- Navbar -->
+    <nav class="bg-[#2b57b5] p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white font-bold text-lg">DISC Assessment</div>
+            <div class="space-x-8">
+                <a href="index.html" class="text-white">Home</a>
+                <a href="#" class="text-white">About</a>
+                <a href="#" class="text-white">Mission</a>
+                <a href="signup.html" class="text-white">Sign Up</a>
+                <a href="login.html" class="text-white">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto mt-20">
+        <form class="w-full max-w-lg mx-auto grid grid-cols-2 gap-4">
+            <div class="col-span-2 text-center">
+                <h1 class="text-4xl font-bold text-black mb-2">Create new Account</h1>
+                <p class="text-gray-500 mb-8">Already Registered? <a href="login.html" class="text-blue-500">Login</a></p>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="first-name">
+                    First Name
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="first-name" type="text" placeholder="First Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="last-name">
+                    Last Name
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="last-name" type="text" placeholder="Last Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                    Email
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="email@gmail.com">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="dob">
+                    Date of Birth
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="dob" type="date">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                    Password
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="confirm-password">
+                    Confirm Password
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="confirm-password" type="password" placeholder="******">
+            </div>
+            <div class="col-span-2 flex items-center justify-center">
+                <button class="bg-[#2b57b5] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Sign Up
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

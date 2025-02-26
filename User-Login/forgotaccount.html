@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>DISC Assessment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-white">
+    <!-- Navbar -->
+    <nav class="bg-[#2b57b5] p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white font-bold text-lg">DISC Assessment</div>
+            <div class="space-x-8">
+                <a href="index.html" class="text-white">Home</a>
+                <a href="#" class="text-white">About</a>
+                <a href="#" class="text-white">Mission</a>
+                <a href="signup.html" class="text-white">Sign Up</a>
+                <a href="login.html" class="text-white">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto mt-20">
+        <form class="w-full max-w-lg mx-auto flex flex-col gap-4">
+            <div class="col-span-2 text-center">
+                <h1 class="text-4xl font-bold text-black mb-2">Find your account</h1>
+                <p class="text-gray-500 mb-8">Please enter your email to reset your password</p>
+            </div>
+            <div class="mb-4 flex flex-col">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                    EMAIL
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email">
+            </div>
+            <div class="col-span-2 flex items-center justify-center gap-4">
+                <a href="login.html" class="bg-gray-300 hover:bg-gray-400 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Cancel
+                </a>
+                <button class="bg-[#2b57b5] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Reset Password
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
