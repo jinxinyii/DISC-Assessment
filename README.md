@@ -1,7 +1,7 @@
 # Project Title: DISC Assessment
 
 ## Purpose
-This project aims to evaluate the skills and knowledge of participants through various tasks and assessments. The DISC Assessment specifically focuses on understanding personality traits and behavioral styles to enhance team dynamics and individual performance.
+This project aims to test our skills as a group by collaboratively developing a comprehensive DISC Assessment tool. The focus is on understanding personality traits and behavioral styles to enhance team dynamics and individual performance.
 
 ## Team Members
 - Elmar - Code Integrator
