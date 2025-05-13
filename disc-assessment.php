@@ -3,7 +3,7 @@
 Plugin Name: DISC Assessment
 Description: A DISC personality assessment tool with email and chart features.
 Version: 1.0
-Author: Your Name
+Author: Elmar Panganiban
 */
 
 if (!defined('ABSPATH')) exit;
